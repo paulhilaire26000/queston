@@ -63,7 +63,7 @@ basic.forever(function () {
         basic.clearScreen()
         score = score + 1
         basic.showNumber(score)
-        score = 0
+        reponse = 0
     }
     if (reponse == 8) {
         basic.clearScreen()
@@ -71,6 +71,6 @@ basic.forever(function () {
         basic.clearScreen()
         score = score - 1
         basic.showNumber(score)
-        score = 0
+        reponse = 0
     }
 })
